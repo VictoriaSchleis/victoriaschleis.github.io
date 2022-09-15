@@ -1,0 +1,16 @@
+.meeting-text {
+  font-style: normal;
+}
+
+.date-text {
+  color: #4169E1;
+}
+
+.title-text {
+  font-variant: small-caps;
+  font-size: 30pt;
+}
+
+ol li {
+  margin-bottom: 14px;
+}
