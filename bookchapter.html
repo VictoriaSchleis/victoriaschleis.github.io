@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Victoria Schleis</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="./css/bootstrap.min.css" />
+
+  <!-- Bootstrap js -->
+  <script src="./js/bootstrap.min.js"></script>
+
+  <!-- style.css -->
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+
+  <header class="page-header" id="headerbackground">
+    <div class="container py-4">
+      <div class="row">
+          <div class="col">
+            <h1 class="mb-1">Victoria Schleis</h1>
+            <p class="mb-0"><font color="#5A5A5A">PhD student in Mathematics at University of Tübingen</font></p>
+          </div>
+      </div>
+    </div>
+  </header>
+
+
+
+
+  <nav class="navbar navbar-expand navbar-dark bg-dark">
+    <div class="container">
+      <ul class="navbar-nav ml-2 mr-auto">
+        <li class="nav-item"><a class="nav-link" href="./index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="./research.html">Publications</a></li>
+        <li class="nav-item"><a class="nav-link" href="./code.html">Code</a></li>
+        <li class="nav-item"><a class="nav-link" href="./talks.html">Talks</a></li>
+        <li class="nav-item"><a class="nav-link" href="./activities.html">Travel</a></li>
+        <li class="nav-item"><a class="nav-link" href="./coauthors.html">Coauthors</a></li>
+        <li class="nav-item"><a class="nav-link" href="./links.html">Miscellaneous</a></li>
+        <li class="nav-item-active"><a class="nav-link" href="./bookchapter.html">OSCAR</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- PAGE BEGIN -->
+
+  <div class="container my-5">
+    <div class="row">
+      <div class="col">
+        <p>
+        <h4> Code and materials for the OSCAR bookchapter </h4>
+        Below, you can find the code and some additional materials used to obtain the results in the bookchapter. For ease of access, results of computations longer than 45 minutes are also provided here. For the final version, we intend to provide a Jupyter notebook guiding through the computations here. This is currently under development.  
+        </p>
+      </div>
+    </div>
+</div>
+      <div class="container my-4">
+        <div class="row">
+          <div class="col">
+            <h4> Elimination computations </h4>
+
+            Elimination computations were run in both Singular (Version 4.2.1-dev) and OSCAR (Version 0.11.2). OSCAR computations were run as described in the article, Singular source code for additional computations can be found here.
+            <ul>
+            <li><a href="/" download> Singular code for additional eliminations</a></li>
+            <li><a href="/" download> Complete results of elimination computations (zip-file)</a></li> 
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="container my-4">
+        <div class="row">
+          <div class="col">
+            <h4> Groebner fan computations </h4>
+            At the time of first computation, no Groebner fan computations existed in OSCAR. Thus, we provide gfan code to obtain the Groebner cones out of the computed coefficients. This supplementary material is not necessary to obtain the results in the article.  
+            <ul>
+            <li><a href="/" download> Singular code for additional eliminations</a></li>
+            <li><a href="/" download> Complete results of elimination computations (zip-file)</a></li> 
+            </ul>
+          </div>
+        </div>
+      </div>
+    
+
+</body>
+
+</html>
